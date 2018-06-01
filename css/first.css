@@ -1,0 +1,859 @@
+video{
+	width: 0px;
+	height: 0px;
+}
+
+html,body{
+	height: 100%;
+	overflow: hidden;
+}
+
+.firstpg{
+	width: 100%;
+	height: 100%;
+}
+.zhuti{
+	width: 100%;
+	height: 100%;
+}
+.zhuti img{
+	width: 50%;
+	margin: 0 auto;
+	position: absolute;
+	left: 25%;
+	top: 25%;
+	-webkit-transform-origin: 50% 50%;
+}
+.publiccomputer img{
+	width: 25%;
+	position: absolute;
+	top: 32%;
+	left: -25%;
+	transform: rotate(-60deg);
+}
+.publicball img{
+	width: 25%;
+	position: absolute;
+	top: 65%;
+	left: -50%;
+}
+.publiccat img{
+	width: 22%;
+	position: absolute;
+	top: 62%;
+	left: 70%;
+}
+.forty img{
+	width: 18%;
+	position: absolute;
+	top: 24%;
+	left: 6%;
+}
+.thirty img{
+	width: 18%;
+	position: absolute;
+	top: -15%;
+	left: 70%;
+}
+.twentyfive img{
+	width: 13%;
+	position: absolute;
+	top: 16%;
+	left: 79%;
+}
+.choosegift img{
+	position: absolute;
+	top: 50%;
+	left: 36%;
+	width: 33%;
+}
+.rulegift img{
+	position: absolute;
+	top: 60%;
+	left: 36%;
+	width: 33%;
+}
+.mubu {
+	background: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: 0;
+}
+.firstpg{
+	z-index: 1;
+}
+
+.top{
+	width: 100%;
+	height: 60.5%;
+}
+.choosegift,.rulegift{
+	width: 100%;
+	margin-bottom: 1.3%
+}
+
+.choose .ball img,
+.choose .cat img,
+.choose .computer img,
+.choose .book img,
+.choose .fruit img{
+	width: 40%;
+	margin: 0 auto;
+}
+
+.choose{
+	margin-top: 15%;
+}
+.choose .ball img,
+.choose .cat img,
+.choose .computer img,
+.choose .book img,
+.choose .fruit img{
+	margin-bottom: 7%;
+}
+
+.rule{
+	background: url('../images/rulegift.png') no-repeat 46% 27%;
+	background-size: 80%;
+	height: 100%;
+}
+.rule .shangyubai{
+	height: 14%;
+}
+.rule .closebtn{
+	width: 100%;
+	margin-left: 76%;
+}
+.rule .closebtn img{
+	width: 8%;
+}
+.rule .zhongyubai{
+	height: 58%;
+}
+.rule .confirm{
+	width: 100%;
+	margin-left: 30%;
+}
+.rule .confirm img{
+	width: 40%;
+}
+.rule .text{
+	margin-top: 7%;
+}
+.rule .text p{
+	text-align: center;
+	font-size: 12px;
+	font-weight: 700;
+	color: white;
+	font-family: "微软雅黑";
+}
+
+@-webkit-keyframes doudong{
+	0%{
+		-webkit-transform: scale(1, 1)
+	}
+	10%{
+		-webkit-transform: scale(1.2, 1.2);
+	}
+	20%{
+		-webkit-transform: translate(3px) rotate(5deg);
+	}
+	35%{
+		-webkit-transform: translate(-3px) rotate(-5deg);
+	}
+	50%{
+		-webkit-transform: translate(3px) rotate(5deg);
+	}
+	65%{
+		-webkit-transform: translate(-3px) rotate(-5deg);
+	}
+	80%{
+		-webkit-transform: translate(3px) rotate(5deg);
+	}
+	100%{
+		transform: scale(1, 1)
+	}
+}
+
+@-webkit-keyframes fortygif{
+	0%{
+		-webkit-transform: scale(1, 1)
+	}
+	50%{
+		-webkit-transform: scale(1.1, 1.1)
+	}
+	100%{
+		-webkit-transform: scale(1, 1)
+	}
+}
+
+@-webkit-keyframes twentyfivegif{
+	10%{
+		-webkit-transform: rotate(15deg);
+	}
+	50%{
+		-webkit-transform: rotate(-15deg);
+	}
+	100%{
+		-webkit-transform: rotate(15deg);
+	}
+}
+
+.secondpg{
+	height: 100%;
+	background: url('../images/secondbg.png') no-repeat 50% 50%;
+	background-size: 67%;
+}
+
+.toptext img{
+	position: absolute;
+	width: 80%;
+	top: 4%;
+	left: 100%;
+}
+.fivesince img{
+	position: absolute;
+	width: 30%;
+	top: 16%;
+	left: 14%;
+	display: none;
+}
+.buylogo img{
+	position: absolute;
+	width: 21%;
+	top: 61%;
+	left: 78%;
+}
+.bottontext img{
+	position: absolute;
+	width: 77%;
+	top: 62%;
+	left: 10%;
+}
+.buybtn img{
+	position: absolute;
+	width: 21%;
+	top: 69%;
+	left: 63%;
+}
+
+
+
+@-webkit-keyframes buylogogif{
+	0%{
+		-webkit-transform: translateY(-15%);
+	}
+	33%{
+		-webkit-transform: translateY(10%);
+	}
+	66%{
+		-webkit-transform: translateY(1%);
+	}
+	100%{
+		-webkit-transform: translateY(10%);
+	}
+}
+
+
+
+@-webkit-keyframes toptextgif{
+	0%{
+		-webkit-transform: translateX(0) skewX(0deg);
+	}
+	50%{
+		-webkit-transform: translateX(-50%) skewX(0deg);
+	}
+	85%{
+		-webkit-transform: translateX(-110%) skewX(30deg);
+	}
+	100%{
+		-webkit-transform: translateX(-110%) skewX(0deg);
+	}
+}
+
+@-webkit-keyframes bottontextgif{
+	0%{
+		-webkit-transform: scale(0.1, 0.1) translateY(0); opacity: 0.1 ;
+	}
+	33%{
+		-webkit-transform: scale(0.3, 0.3) translateY(-40%); opacity: 0.3 ;
+	}
+	66%{
+		-webkit-transform: scale(0.6, 0.6) translateY(20%); opacity: 0.3 ;
+	}
+	100%{
+		-webkit-transform: scale(1, 1) translateY(0%) ; opacity: 1;
+	}
+}
+
+.ballpg {
+	height: 100%;
+	background: url('../images/ballbg.png') no-repeat 80% 85%;
+	background-size: 65%
+}
+.ballwhitetext img{
+	width: 94%;
+	position: absolute;
+	left: 2%;
+	top: 8%;
+}
+.ballyellowtext img{
+	width: 47%;
+	position: absolute;
+	left: 38%;
+	top: 7%;
+}
+.ballstar img{
+	width: 48%;
+	position: absolute;
+	left: 7%;
+	top: 46%;
+	z-index: 99;
+}
+.ballpikaqiu img{
+	width: 44%;
+	position: absolute;
+	left: 3%;
+	top: 44%;
+	-webkit-transform-origin: 100% 100%;
+}
+
+@-webkit-keyframes bigsmall{
+	0%{
+		-webkit-transform: scale(0.3, 0.3);opacity: 0.3;
+	}
+	80%{
+		-webkit-transform: scale(1.1, 1.1) ; opacity: 0.8 ;
+	}
+	100%{
+		-webkit-transform: scale(1, 1) ; opacity: 1;
+	}
+}
+@-webkit-keyframes pkqgif{
+	0%{
+		-webkit-transform: scaleY(0.3);
+	}
+	40%{
+		-webkit-transform: scaleY(1.1);
+	}
+	60%{
+		-webkit-transform: scaleY(1);
+	}
+	80%{
+		-webkit-transform: scaleY(1.1);
+	}
+	100%{
+		-webkit-transform: scaleY(1);
+	}
+}
+
+@-webkit-keyframes stargif{
+	0%{
+		opacity: 1;
+	}
+	50%{
+		opacity: 0 ;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+
+.catpg{
+	height: 100%;
+	width: 100%;
+	background: url('../images/catbg.png') no-repeat 80% 90%;
+	background-size: 65%;
+}
+.cattext1 img{
+	width: 92%;
+	position: absolute;
+	left: 4%;
+	top: 3%;
+}
+.cattext2 img{
+	width: 50%;
+	position: absolute;
+	left: 45%;
+	top: 32%;
+}
+.cattext3 img{
+	width: 17%;
+	position: absolute;
+	left: 56%;
+	top: 4%;
+}
+.cattext4 {
+	width: 43%;
+	height: 11%;
+	position: absolute;
+	left: 4%;
+	top: 25%;
+	overflow: hidden;
+}
+.cattext4 img{
+	height: 100%;
+}
+.cattext5 img{
+	width: 36%;
+	position: absolute;
+	left: 48%;
+	top: 22%;
+}
+.catgirl img{
+	width: 48%;
+	position: absolute;
+	left: 3%;
+	top: 43%;
+	-webkit-transform-origin: 100% 100%;
+}
+
+@-webkit-keyframes bigsmallbig{
+	0%{
+		-webkit-transform: scale(1, 1);
+	}
+	50%{
+		-webkit-transform: scale(1.1, 1.1) ;
+	}
+	100%{
+		-webkit-transform: scale(1, 1) ;
+	}
+}
+
+@-webkit-keyframes cattextgif{
+	0%{
+		-webkit-transform: scale(0.3, 0.3);opacity: 0.1;
+	}
+	25%{
+		-webkit-transform: scale(1.1, 1.1);opacity: 1;
+	}
+	50%{
+		-webkit-transform: scale(1, 1);opacity: 1;
+	}
+	75%{
+		-webkit-transform: scale(1.1, 1.1);opacity: 1;
+	}
+	100%{
+		-webkit-transform: scale(1, 1) ;opacity: 1;
+	}
+}
+
+@-webkit-keyframes youhuadong{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 43%;
+	}
+}
+
+.computerpg{
+	height: 100%;
+	width: 100%;
+	background: url('../images/computerbg.png') no-repeat 85% 95%;
+	background-size: 50%;
+}
+
+.computertext1 img{
+	width: 90%;
+	position: absolute;
+	left: 5%;
+	top: 9%;
+}
+
+.computertext2 img{
+	width: 40%;
+	position: absolute;
+	left: 55%;
+	top: 8%;
+}
+.computertext3 img{
+	width: 41%;
+	position: absolute;
+	left: 53%;
+	top: 29%;
+	-webkit-transform-origin: 0% 0%;
+	z-index: 50;
+}
+.computerlogo img{
+	width: 20%;
+	position: absolute;
+	left: 2%;
+	top: 75%;
+}
+.computergirl img{
+	width: 48%;
+	position: absolute;
+	left: 3%;
+	top: 45%;
+	-webkit-transform-origin: 100% 100%;
+}
+
+
+
+@-webkit-keyframes computergif{
+	0%{
+		left: -20%;
+	}
+	100%{
+		left: 4%;
+	}
+}
+
+@-webkit-keyframes computertextgif{
+	0%{
+		-webkit-transform:rotate(0deg) translate(0,0); opacity:1;
+	}
+	20%{
+		-webkit-transform:rotate(75deg) translate(0,0); opacity:1;
+	}
+	40%{
+		-webkit-transform:rotate(60deg) translate(0,0); opacity:1;
+	}
+	60%{
+		-webkit-transform:rotate(75deg) translate(0,0); opacity:1;
+	}
+	80%{
+		-webkit-transform:rotate(60deg) translate(0,0); opacity:1;
+	}
+	100%{
+		-webkit-transform:rotate(45deg) translate(30%,50%); opacity:0;
+	}
+}
+
+
+.bookpg{
+	height: 100%;
+	width: 100%;
+	background: url('../images/bookbg.png') no-repeat 80% 90%;
+	background-size: 50%;
+}
+
+.booktext1 img{
+	width: 90%;
+	position: absolute;
+	left: 5%;
+	top: 7%;
+}
+.booktext2 img{
+	width: 40%;
+	position: absolute;
+	left: 51%;
+	top: 34%;
+}
+.booktext3 img{
+	width: 38%;
+	position: absolute;
+	left: 39%;
+	top: 1%;
+}
+.booktext4 img{
+	width: 68%;
+	position: absolute;
+	left: 13%;
+	top: 26%;
+}
+.bookpic img{
+	width: 44%;
+	position: absolute;
+	left: 4%;
+	top: 41%;
+	-webkit-transform-origin: 100% 100%;
+}
+.booklogo img{
+	width: 30%;
+	position: absolute;
+	left: 5%;
+	top: 62%;
+}
+
+.fruitpg{
+	height: 100%;
+	width: 100%;
+	background: url('../images/fruitbg.png') no-repeat 87% 90%;
+	background-size: 66%;
+}
+.fruittext1 img{
+	width: 36%;
+	position: absolute;
+	left: 9%;
+	top: 10%;
+}
+.fruittext2 img{
+	width: 46%;
+	position: absolute;
+	left: 43%;
+	top: 5%;
+}
+.fruittext3 img{
+	width: 30%;
+	position: absolute;
+	left: 64%;
+	top: 17%;
+}
+.fruitlufei img{
+	width: 48%;
+	position: absolute;
+	left: 4%;
+	top: 41%;
+	-webkit-transform-origin: 100% 100%;
+}
+.fruitchang1 img{
+	width: 19%;
+	position: absolute;
+	left: 1%;
+	top: 32%;
+}
+.fruitchang2 img{
+	width: 8%;
+	position: absolute;
+	left: 33%;
+	top: 34%;
+}
+.fruitchang3 img{
+	width: 20%;
+	position: absolute;
+	left: 45%;
+	top: 36%;
+}
+.fruitchang4 img{
+	width: 27%;
+	position: absolute;
+	left: 100%;
+	top: 40%;
+}
+.fruitchang5 img{
+	width: 27%;
+	position: absolute;
+	left: -20%;
+	top: 71%;
+}
+
+@-webkit-keyframes changgif{
+	0%{
+		left: 100%;
+	}
+	100%{
+		left: 80%;
+	}
+}
+
+.erguang{
+	height: 100%;
+	width: 100%;
+	background: url('../images/erguangbg.png') no-repeat 30% 45%;
+	background-size: 90%;
+}
+.pa1 img{
+	width: 15%;
+	position: absolute;
+	left: 5%;
+	top: 10%;
+}
+.pa2 img{
+	width: 25%;
+	position: absolute;
+	left: 70%;
+	top: 8%;
+}
+.pa3 img{
+	width: 30%;
+	position: absolute;
+	left: 2%;
+	top: 20%;
+}
+.pa4 img{
+	width: 23%;
+	position: absolute;
+	left: 85%;
+	top: 25%;
+}
+.pa5 img{
+	width: 20%;
+	position: absolute;
+	left: 33%;
+	top: 62%;
+}
+.pa6 img{
+	width: 35%;
+	position: absolute;
+	left: 70%;
+	top: 60%;
+}
+.pa7 img{
+	width: 15%;
+	position: absolute;
+	left: 4%;
+	top: 78%;
+}
+.pa8 img{
+	width: 28%;
+	position: absolute;
+	left: 62%;
+	top: 80%;
+}
+.gantan img{
+	width: 20%;
+	position: absolute;
+	left: 25%;
+	top: 10%;
+}
+
+@-webkit-keyframes gantangif{
+	0%{
+		-webkit-transform: translateY(-10%);
+	}
+	50%{
+		-webkit-transform: translateY(10%);
+	}
+	100%{
+		-webkit-transform: translateY(-10%);
+	}
+}
+@-webkit-keyframes pa5gif{
+	0%{
+		-webkit-transform:scale(1,1);
+	}
+	100%{
+		-webkit-transform:scale(3,3);
+	}
+}
+
+.lastpg{
+	height: 100%;
+	width: 100%;
+	background: url('../images/lastpagebg.png') no-repeat 85% 95%;
+	background-size: 50%;
+}
+.lastball img{
+	width: 20%;
+	position: absolute;
+	left: -21%;
+	top: 5%;
+}
+.lasttext1 img{
+	width: 75%;
+	position: absolute;
+	left: 9%;
+	top: 5%;
+}
+.lasttext2 img{
+	width: 36%;
+	position: absolute;
+	left: 7%;
+	top: 80%;
+	-webkit-transform-origin: 100% 50%;
+}
+.lasttext3 img{
+	width: 39%;
+	position: absolute;
+	left: 3%;
+	top: 65%;
+	-webkit-transform-origin: 100% 50%;
+}
+.chooseagain img{
+	width: 39%;
+	position: absolute;
+	left: 8%;
+	top: 42%;
+}
+.receivegif img{
+	width: 39%;
+	position: absolute;
+	left: 50%;
+	top: 42%;
+}
+
+@-webkit-keyframes lasttextgif{
+	0%{
+		-webkit-transform:scaleX(0)
+	}
+	100%{
+		-webkit-transform:scaleX(1)
+	}
+}
+
+@-webkit-keyframes lastballgif{
+	0%{
+		-webkit-transform: translate(10%,0%) scale(1,1);
+	}
+	20%{
+		-webkit-transform:translate(130%,0%) scale(1,1);
+	}
+	50%{
+		-webkit-transform:translate(130%,0%) scale(0.7,0.7);
+	}
+	100%{
+		-webkit-transform:translate(350%,-20%) scale(0,0);
+	}
+}
+
+@-webkit-keyframes zhutigif{
+	0%{
+		-webkit-transform: scale(0.3,0.3);
+	}
+	25%{
+		-webkit-transform: scale(1.8,1.8);
+	}
+	50%{
+		-webkit-transform: scale(1.5,1.5);
+	}
+	75%{
+		-webkit-transform: scale(1.8,1.8);
+	}
+	100%{
+		-webkit-transform:scale(1.5,1.5);
+	}
+}
+
+@-webkit-keyframes danrugif{
+	0%{
+		opacity: 0 ;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+
+.erweima{
+	width: 100%;
+	height: 100%;
+}
+.erweima .fenxiang{
+	width: 100%;
+	height: 30%;
+	margin-top: 12%;
+}
+.erweima .fenxiang img{
+	width: 55%;
+	margin-left: 40%
+}
+.erweima .erweimapng{
+	width: 100%;
+	margin-top: 13%;
+}
+.erweima .erweimapng img{
+	width: 40%;
+	margin: 0 auto;
+}
+.erweima .undertext1{
+	width: 100%;
+	margin-top: 3%;
+}
+.erweima .undertext1 img{
+	width: 30%;
+	margin: 0 auto;
+}
+.erweima .undertext2{
+	width: 100%;
+	margin-top: 3%;
+}
+.erweima .undertext2 img{
+	width: 40%;
+	margin: 0 auto;
+}

@@ -1,0 +1,10 @@
+html,body{
+	height: 100%;
+	overflow: hidden;
+}
+
+body{
+	background: url('../images/publicbg.jpg') no-repeat;
+	background-size: 100%;
+	position: relative;
+}

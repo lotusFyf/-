@@ -1,0 +1,47 @@
+html,body{
+	height: 100%;
+	overflow: hidden;
+}
+
+body{
+	background: url('../images/secondbg.jpg') no-repeat;
+	background-size: 100%;
+}
+
+.secondpg{
+	background: url('../images/secondbg.jpg') no-repeat;
+}
+
+.toptext img{
+	position: absolute;
+	width: 80%;
+	top: 14%;
+	left: 8%;
+}
+.fivesince img{
+	position: absolute;
+	width: 30%;
+	top: 25%;
+	left: 13%;
+	display: none;
+}
+.buylogo img{
+	position: absolute;
+	width: 21%;
+	top: 61%;
+	left: 78%;
+}
+.bottontext img{
+	position: absolute;
+	width: 77%;
+	top: 62%;
+	left: 10%;
+}
+.buybtn img{
+	position: absolute;
+	width: 21%;
+	top: 69%;
+	left: 63%;
+}
+
+
